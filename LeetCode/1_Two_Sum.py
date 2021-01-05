@@ -1,7 +1,8 @@
 # encoding: utf-8
 
 # 1_Two_Sum
-# 
+# 2021/01/05
+#
 # Given an array of integers nums and an integer target, return indices of the two numbers such
 # that they add up to target.
 # Example 1:
