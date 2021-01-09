@@ -1,6 +1,6 @@
 # encoding: utf-8
 
-# 7_Reverse_Integer
+# 007_Reverse_Integer
 # 2021/01/07
 #
 # Assume we are dealing with an environment that could only store integers
@@ -105,7 +105,7 @@ class Solution:
             return reverse_x
         else:
             return 0
-            
+
     # use String Slices s[start:end:stride]
     def reverse_4(self, x):
         res = int(str(abs(x))[::-1])
