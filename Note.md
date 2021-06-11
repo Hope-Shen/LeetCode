@@ -13,5 +13,5 @@
 
 # <span style="color:Orange">**MEDIUM**</span>
 
-| Problem                   | Complete Date     | 
-| :---                      |    :----:         |
+| Problem                       | Complete Date     | Language     | 
+| :---                          |    :----          | :----:
