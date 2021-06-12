@@ -9,6 +9,7 @@
 | 014_Longest_Common_Prefix     | 12th May. 2021    | Python
 | 020_Valid_Parentheses         | 12th May. 2021    | Python
 | 021_Merge_Two_Sorted_Lists    | 10th Jun. 2021    | C# 
+| 125_Valid_Palindrome          | 12th Jun. 2021    | C# 
 
 
 # <span style="color:Orange">**MEDIUM**</span>
