@@ -31,7 +31,7 @@ namespace LeetCodeCSharp_Fizz_Buzz
     public class Fizz_Buzz
     {
         public static IList<string> FizzBuzz_1(int n) {
-             List<string> ls = new List<string>();
+            List<string> ls = new List<string>();
 
             for(int i = 1; i <= n; i++)
             {

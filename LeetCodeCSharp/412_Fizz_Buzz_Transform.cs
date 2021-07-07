@@ -32,7 +32,7 @@ namespace LeetCodeCSharp
             return str.Substring(0, str.Length -2);
         }
 
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----FizzBuzz-----");
             Console.WriteLine(FizzBuzz(1, 3));
