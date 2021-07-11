@@ -17,3 +17,9 @@
 
 | Problem                       | Complete Date     | Language     | 
 | :---                          |    :----          | :----:       |
+
+## **Others**</span>
+
+| #     | Problem                       | Complete Date     | Language     | 
+| :---  | :---                          |    :----          | :----:       |
+| 001   | Bubble Sort                   | 11th Jul. 2021    | C#           |
