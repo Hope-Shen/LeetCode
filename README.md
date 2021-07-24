@@ -25,3 +25,4 @@
 | #     | Problem                       | Complete Date     | Language     | 
 | :---  | :---                          |    :----          | :----:       |
 | 001   | Bubble Sort                   | 11th Jul. 2021    | C#           |
+| 002   | Selection Sort                | 23th Jul. 2021    | C#           |
