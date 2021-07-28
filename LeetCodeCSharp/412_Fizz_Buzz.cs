@@ -30,6 +30,8 @@ namespace LeetCodeCSharp_Fizz_Buzz
     */
     public class Fizz_Buzz
     {
+        // Time complexity: O(n)
+        // Space complexity: O(1)
         public static IList<string> FizzBuzz_1(int n) {
             List<string> ls = new List<string>();
 
@@ -57,6 +59,8 @@ namespace LeetCodeCSharp_Fizz_Buzz
             return ls;
         }
 
+        // Time complexity: O(n)
+        // Space complexity: O(1)
         public static IList<string> FizzBuzz_2(int n) {
             List<string> ls = new List<string>();
 

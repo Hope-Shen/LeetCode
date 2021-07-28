@@ -19,7 +19,11 @@
 # Output: [0,1]
 
 class Solution:
-    # 暴力解法 O(n^2)
+    '''
+    Brute force 暴力解法
+    Time complexity: O(n^2)
+    Space complexity: O(1)
+    '''
     def twoSum(self, nums, target):
         for x in range(len(nums)):
             for y in range(x + 1, len(nums)):
@@ -30,6 +34,10 @@ class Solution:
     # Hash O(1) by 力扣
     # 这样我们创建一个哈希表，对于每一个 x，我们首先查询哈希表中是否存在 target - x，
     # 然后将 x 插入到哈希表中，即可保证不会让 x 和自己匹配。
+    '''
+    Time complexity: O(n)
+    Space complexity: O(n)
+    '''
     def twoSumHash(self, nums, target):
         hashtable = dict()
         for i, num in enumerate(nums):

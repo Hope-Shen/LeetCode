@@ -75,6 +75,9 @@ class Solution:
     4  10      1000(M)  wrong      94 + 1000 = 1094
     5  1000    100(C)   correct    1094 - 100 = 994
     6  100     1000(M)  wrong      994 + 1000 = 1994
+
+    Time complexity: O(n)
+    Space complexity: O(1)
     '''
     def romanToInt(self, s):
         s_dic = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}

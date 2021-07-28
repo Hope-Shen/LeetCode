@@ -5,6 +5,8 @@ namespace LeetCodeCSharp_Selection_Sort
     /*
     Others_Selection_Sort
     2021/07/23
+
+    Time complexity: O(n^2)
     */
 
     public class Selection_Sort

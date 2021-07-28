@@ -5,6 +5,8 @@ namespace LeetCodeCSharp_Bubble_Sort
     /*
     Others_Bubble_Sort
     2021/07/11
+
+    Time complexity: O(n^2)
     */
 
     public class Bubble_Sort

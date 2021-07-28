@@ -5,6 +5,8 @@ namespace LeetCodeCSharp_Insertion_Sort
     /*
     Others_Insertion_Sort
     2021/07/27
+
+    Time complexity: O(n^2)
     */
 
     public class Insertion_Sort

@@ -24,6 +24,8 @@
 class Solution:
   '''
   Vertical scanning 縱向掃描法
+  Time complexity: O(n+m)
+  Space complexity: O(1)
   '''
   def prefix(self, strs):
     if not strs:

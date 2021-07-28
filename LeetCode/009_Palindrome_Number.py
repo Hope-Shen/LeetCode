@@ -52,6 +52,9 @@ class Solution:
     1 % 10 = 1
     1 // 10 = 0
     132 * 10 + 1 = 1321
+
+    Time complexity: O(log n) --> b/c input data divide by 10 (line 68)
+    Space complexity: O(1)
     '''
     def isPalindrome(self, x):
         reverse_x = 0

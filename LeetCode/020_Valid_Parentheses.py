@@ -35,7 +35,9 @@
 # s consists of parentheses only '()[]{}'.
 
 class Solution:
-    '''My result'''
+    ''' My result
+        Time complexity: O(n)
+    '''
     def isValidParentheses_1(self, strs):
         strs_list = list(strs)
         temp_list = list()
@@ -54,7 +56,9 @@ class Solution:
         
         return True
 
-    '''Result from Leetcode solution (Better than mind) '''   
+    ''' Result from Leetcode solution (Better than mind)
+        Time complexity: O(n)
+    '''   
     def isValidParentheses_2(self, strs):
         dit = {')':'(',']':'[','}':'{'}
         stack = list()

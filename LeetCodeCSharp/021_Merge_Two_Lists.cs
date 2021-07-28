@@ -27,6 +27,8 @@ namespace LeetCodeCSharp_Merge_Two_Lists
 
     class Merge_Two_Lists
     {
+        // Time complexity: O(n+m)
+        // Space complexity: O(n+m)
         public static ListNode MergeTwoLists_1(ListNode l1, ListNode l2)
         {
             if (l1 == null && l2 == null) return null;
@@ -45,6 +47,8 @@ namespace LeetCodeCSharp_Merge_Two_Lists
             }
         }
 
+        // Time complexity: O(n+m)
+        // Space complexity: O(1)
         public static ListNode MergeTwoLists_2(ListNode l1, ListNode l2)
         {
             ListNode resultList = new ListNode(0);
