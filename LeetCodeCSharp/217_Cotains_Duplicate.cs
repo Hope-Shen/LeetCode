@@ -4,7 +4,7 @@ namespace LeetCodeCSharp_Cotains_Duplicate
 {
     /*
     217_Cotains_Duplicate
-    2021/07/29
+    2021/07/28
 
     Given an integer array nums, return true if any value appears at least twice in the array, 
     and return false if every element is distinct.
@@ -25,6 +25,7 @@ namespace LeetCodeCSharp_Cotains_Duplicate
     public class Cotains_Duplicate
     {
         // Time complexity: O(n log n)
+        //   -> b/c Sorting(line 32) is O(nlogn) nand the sweeping is O(n). The entire algorithm is dominated by the sorting step, which is O(nlogn).
         // Space complexity: O(log n)
         public static bool ContainsDuplicate(int[] nums)
         {

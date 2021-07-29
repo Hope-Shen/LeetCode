@@ -15,6 +15,7 @@
 | 009   | 412_Fizz_Buzz                 | 22th Jun. 2021    | C#           |
 | 010   | 700_Search_BST                | 6th Jul. 2021     | C#           |
 | 011   | 217_Cotains_Duplicate         | 28th Jul. 2021    | C#           |
+| 012   | 053_Max_SubArray              | 29th Jul. 2021    | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
