@@ -42,7 +42,7 @@ namespace LeetCodeCSharp_Max_SubArray
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Max SubArray-----");
             int[] arr = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };

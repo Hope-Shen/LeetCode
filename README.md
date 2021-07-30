@@ -16,6 +16,8 @@
 | 010   | 700_Search_BST                | 6th Jul. 2021     | C#           |
 | 011   | 217_Cotains_Duplicate         | 28th Jul. 2021    | C#           |
 | 012   | 053_Max_SubArray              | 29th Jul. 2021    | C#           |
+| 013   | 001_Two_Sum                   | 30th Jul. 2021    | C#           |
+| 014   | 088_Merge_Sorted_Array        | 30th Jul. 2021    | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 

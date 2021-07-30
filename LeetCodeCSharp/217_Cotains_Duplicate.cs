@@ -25,11 +25,13 @@ namespace LeetCodeCSharp_Cotains_Duplicate
     public class Cotains_Duplicate
     {
         // Time complexity: O(n log n)
-        //   -> b/c Sorting(line 32) is O(nlogn) nand the sweeping is O(n). The entire algorithm is dominated by the sorting step, which is O(nlogn).
+        //   -> b/c Sorting(line 32) is O(nlogn) and the sweeping is O(n). The entire algorithm is dominated by the sorting step, which is O(nlogn).
         // Space complexity: O(log n)
+        //   -> b/c Sorting(line 32) is O(logn). 
         public static bool ContainsDuplicate(int[] nums)
         {
-            Array.Sort(nums); int num_len = nums.Length;
+            Array.Sort(nums); 
+            int num_len = nums.Length;
             for (int i = 1; i < num_len; i++)
             {
                 if (nums[i] == nums[i - 1])
