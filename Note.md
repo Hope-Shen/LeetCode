@@ -18,6 +18,8 @@
 | 014   | 088_Merge_Sorted_Array                | 30th Jul. 2021    | C#           |
 | 015   | 350_Intersection_Of_Two_Arrays_II     | 3rd Aug. 2021     | C#           |
 | 016   | 121_Best_Time_To_Buy_And_Sell_Stock   | 5th Aug. 2021     | C#           |
+| 017   | 566_Reshape_Matrix                    | 7th Aug. 2021     | C#           |
+
 
 # <span style="color:Orange">**MEDIUM**</span>
 
