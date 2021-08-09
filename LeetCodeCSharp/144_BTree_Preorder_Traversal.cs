@@ -7,6 +7,12 @@ namespace LeetCodeCSharp_BTree_Preorder_Traversal
     114_BTree_Preorder_Traversal
     2021/08/09
 
+    ******************************
+    Preorder: root->left->right
+    Inorder: left->root->right
+    Postorder: left->right->root
+    *****************************
+
     Given the root of a binary tree, return the preorder traversal of its nodes' values.
 
     Example 1:
@@ -129,7 +135,6 @@ namespace LeetCodeCSharp_BTree_Preorder_Traversal
             TreeNode t3_4 = new TreeNode(1);
             t3_4.right = new TreeNode(2);
             Console.WriteLine(string.Join(", ", PreorderTraversal_1(t3_4)));
-
         }
     }
 }
