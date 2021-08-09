@@ -22,6 +22,7 @@
 | 016   | 121_Best_Time_To_Buy_And_Sell_Stock   | 5th Aug. 2021     | C#           |
 | 017   | 566_Reshape_Matrix                    | 7th Aug. 2021     | C#           |
 | 018   | 206_Reverse_Linked_List               | 7th Aug. 2021     | C#           |
+| 019   | 387_First_Unique_Char_in_Str          | 8th Aug. 2021     | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
