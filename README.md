@@ -23,6 +23,7 @@
 | 017   | 566_Reshape_Matrix                    | 7th Aug. 2021     | C#           |
 | 018   | 206_Reverse_Linked_List               | 7th Aug. 2021     | C#           |
 | 019   | 387_First_Unique_Char_in_Str          | 8th Aug. 2021     | C#           |
+| 020   | 026_Remove_Duplicates                 | 9th Aug. 2021     | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
