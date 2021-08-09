@@ -68,6 +68,7 @@ namespace LeetCodeCSharp_Remove_Duplicates
             return idx + 1;
         }
 
+        // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Remove Duplicates-----");
