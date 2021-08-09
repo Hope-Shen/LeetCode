@@ -61,7 +61,6 @@ namespace LeetCodeCSharp_Remove_Duplicates
                 {
                     idx++;
                     nums[idx] = nums[i];
-
                 }
             }
             // Console.WriteLine(string.Join(", ", nums));

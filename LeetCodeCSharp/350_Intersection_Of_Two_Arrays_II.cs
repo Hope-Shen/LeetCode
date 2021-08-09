@@ -92,7 +92,6 @@ namespace LeetCodeCSharp_Intersection_Of_Two_Arrays_II
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { }, new int[] { 2, 3 })));
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { 1, 2, 2, 1 }, new int[] { 2 })));
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 })));
-
         }
     }
 }

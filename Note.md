@@ -24,6 +24,7 @@
 | 020   | 026_Remove_Duplicates                 | 9th Aug. 2021     | C#           |
 | 021   | 027_Remove_Element                    | 9th Aug. 2021     | C#           |
 | 021   | 020_Valid_Parentheses                 | 9th Aug. 2021     | C#           |
+| 022   | 114_BTree_Preorder_Traversal          | 9th Aug. 2021     | C#           |
 
 # <span style="color:Orange">**MEDIUM**</span>
 
