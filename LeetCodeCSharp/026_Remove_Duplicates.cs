@@ -44,7 +44,7 @@ namespace LeetCodeCSharp_Remove_Duplicates
     public class Remove_Duplicates
     {
         // Time complexity: O(n)
-        // Space complexity: O(1))
+        // Space complexity: O(1)
         public static int RemoveDuplicates(int[] nums)
         {
             if (nums.Length == 0) return 0;
@@ -68,13 +68,12 @@ namespace LeetCodeCSharp_Remove_Duplicates
             return idx + 1;
         }
 
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Remove Duplicates-----");
             Console.WriteLine(RemoveDuplicates(new int[] { 1, 1, 2 }));
             Console.WriteLine(RemoveDuplicates(new int[] { 0, 0, 1, 1, 1, 2, 2, 3, 3, 4 }));
             Console.WriteLine(RemoveDuplicates(new int[] { }));
         }
-
     }
 }
