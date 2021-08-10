@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace LeetCodeCSharp_BTree_Preorder_Traversal
 {
     /*
-    114_BTree_Preorder_Traversal
+    144_BTree_Preorder_Traversal
     2021/08/09
 
     ******************************
@@ -62,7 +62,7 @@ namespace LeetCodeCSharp_BTree_Preorder_Traversal
             Stack<TreeNode> s = new Stack<TreeNode>();
             s.Push(root);
 
-            while (s.Count != 0)
+            while (s.Count > 0)
             {
                 result.Add(s.Peek().val);
                 TreeNode currTree = s.Pop();

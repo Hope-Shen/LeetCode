@@ -61,13 +61,12 @@ namespace LeetCodeCSharp_BTree_Inorder_Traversal
 
             Stack<TreeNode> s = new Stack<TreeNode>();
 
-            while (root != null || s.Count != 0)
+            while (root != null || s.Count > 0)
             {
                 while (root != null)
                 {
                     s.Push(root);
                     root = root.left;
-
                 }
                 result.Add(s.Peek().val);
                 root = s.Pop().right;
@@ -96,7 +95,7 @@ namespace LeetCodeCSharp_BTree_Inorder_Traversal
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Binary Tree_Inorder_Traversal_1-----");
             TreeNode t1_1 = new TreeNode(1);
