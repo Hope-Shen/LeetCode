@@ -86,7 +86,7 @@ namespace LeetCodeCSharp_Path_Sum
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Path Sum_1-----");
             TreeNode t1_1 = new TreeNode(1);

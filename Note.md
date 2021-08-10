@@ -28,6 +28,7 @@
 | 023   | 094_BTree_Inorder_Traversal           | 9th Aug. 2021     | C#           |
 | 024   | 226_Invert_Binary_Tree                | 10th Aug. 2021    | C#           |
 | 025   | 112_Path_Sum                          | 10th Aug. 2021    | C#           |
+| 026   | 104_Maximum_Depth_of_Binary_Tree      | 10th Aug. 2021    | C#           |
 
 # <span style="color:Orange">**MEDIUM**</span>
 
