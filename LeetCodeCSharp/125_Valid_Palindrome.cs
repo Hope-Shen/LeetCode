@@ -1,5 +1,6 @@
 using System;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace LeetCodeCSharp_Valid_Palindrome
 {
@@ -65,14 +66,15 @@ namespace LeetCodeCSharp_Valid_Palindrome
 
         public static bool IsPalindrome_3(string s)
         {   
-            var newStr = new StringBuilder();
-            foreach(char c in s.ToUpper())
-            {
-                if(char.IsLetterOrDigit(c))
-                {
-                    newStr.Append(c);
-                }
-            }
+            string newStr = Regex.Replace(s, "[^A-Za-z0-9]", "").ToUpper();
+            // var newStr = new StringBuilder();
+            // foreach(char c in s.ToUpper())
+            // {
+            //     if(char.IsLetterOrDigit(c))
+            //     {
+            //         newStr.Append(c);
+            //     }
+            // }
 
             int left = 0, right = newStr.Length -1;
             while(left < right)
