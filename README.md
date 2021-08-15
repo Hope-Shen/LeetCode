@@ -33,6 +33,8 @@
 | 026   | 104_Maximum_Depth_of_Binary_Tree      | 10th Aug. 2021    | C#           |
 | 027   | 409_Longest_Palindrome                | 14th Aug. 2021    | C#           |
 | 028   | 383_Ransom_Note                       | 15th Aug. 2021    | C#           |
+| 029   | 118_Pascals_Triangle                  | 15th Aug. 2021    | C#           |
+| 030   | 101_Symmetric_Tree                    | 15th Aug. 2021    | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
