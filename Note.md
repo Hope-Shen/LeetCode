@@ -1,4 +1,4 @@
-# <span style="color:LightGreen">**EASY**</span>
+## <span style="color:LightGreen">**EASY**</span>
 
 | #     | Problem                               | Complete Date     | Language     | 
 | :---  | :---                                  |    :----          | :----:       |
@@ -30,12 +30,14 @@
 | 025   | 112_Path_Sum                          | 10th Aug. 2021    | C#           |
 | 026   | 104_Maximum_Depth_of_Binary_Tree      | 10th Aug. 2021    | C#           |
 | 027   | 409_Longest_Palindrome                | 14th Aug. 2021    | C#           |
+| 028   | 383_Ransom_Note                       | 15th Aug. 2021    | C#           |
 
-# <span style="color:Orange">**MEDIUM**</span>
+## <span style="color:Orange">**MEDIUM**</span>
 
 | #     | Problem                               | Complete Date     | Language     | 
 | :---  | :---                                  |    :----          | :----:       |
 | 001   | 701_Insert_Into_Binary_Search_Tree    | 15th Aug. 2021    | C#           |
+| 002   | 285_Inorder_Successor_BSTree          | 15th Aug. 2021    | C#           |
 
 ## **Others**</span>
 

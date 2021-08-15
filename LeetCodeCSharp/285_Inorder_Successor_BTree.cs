@@ -1,0 +1,95 @@
+using System;
+
+namespace LeetCodeCSharp_Inorder_Successor_BTree
+{
+    /*
+    285_Inorder_Successor_BTree
+    2021/08/15
+
+    You are given the root node of a binary search tree (BST) and a value to insert into the tree. 
+    Return the root node of the BST after the insertion. It is guaranteed that the new value does not exist in the original BST.
+
+    Notice that there may exist multiple valid ways for the insertion, 
+    as long as the tree remains a BST after insertion. You can return any of them.
+
+    Example 1:
+    Input: root = [4,2,7,1,3], val = 5
+    Output: [4,2,7,1,3,5]
+    Explanation: Another accepted tree is:
+    
+    Example 2:
+    Input: root = [40,20,60,10,30,50,70], val = 25
+    Output: [40,20,60,10,30,50,70,null,null,25]
+    
+    Example 3:
+    Input: root = [4,2,7,1,3,null,null,null,null,null,null], val = 5
+    Output: [4,2,7,1,3,5]
+    */
+
+    public class TreeNode
+    {
+        public int val;
+        public TreeNode left;
+        public TreeNode right;
+        public TreeNode(int val = 0, TreeNode left = null, TreeNode right = null)
+        {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+    public class Inorder_Successor_BTree
+    {
+        // Iterative Soluation
+        // Time complexity: O(n)
+        // Space complexity: O(1)
+        public static TreeNode InorderSuccessor(TreeNode root, TreeNode p)
+        {
+            if (p == null) return null;
+
+            TreeNode result = new TreeNode();
+            while (root != null)
+            {
+                // go left
+                if (root.val > p.val)
+                {
+                    root = root.left;
+                    result = root;
+                }
+                // go right
+                else
+                {
+                    root = root.right;
+                }
+            }
+
+            return result;
+        }
+
+        // run code should change this function name with Main instead of fun_Main
+        static void fun_Main(string[] args)
+        {
+            Console.WriteLine("-----Inorder Successor BTree-----");
+            TreeNode t1 = new TreeNode(20);
+            t1.left = new TreeNode(9);
+            t1.right = new TreeNode(25);
+            t1.left.left = new TreeNode(5);
+            t1.left.right = new TreeNode(12);
+            t1.left.right.left = new TreeNode(11);
+            t1.left.right.right = new TreeNode(14);
+            Console.WriteLine(string.Join(", ", InorderSuccessor(t1, t1.left)));
+
+            // TreeNode t2 = new TreeNode(40);
+            // t2.left = new TreeNode(20);
+            // t2.right = new TreeNode(60);
+            // t2.left.left = new TreeNode(10);
+            // t2.left.right = new TreeNode(30);
+            // t2.right.left = new TreeNode(50);
+            // t2.right.right = new TreeNode(70);
+            // Console.WriteLine(string.Join(", ", InsertIntoBST(t2, 5)));
+
+            // TreeNode t3 = new TreeNode();
+            // Console.WriteLine(string.Join(", ", InsertIntoBST(t3, 5)));
+        }
+    }
+}
