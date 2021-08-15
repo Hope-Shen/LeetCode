@@ -35,8 +35,9 @@
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
-| #     | Problem                       | Complete Date     | Language     | 
-| :---  | :---                          |    :----          | :----:       |
+| #     | Problem                               | Complete Date     | Language     | 
+| :---  | :---                                  |    :----          | :----:       |
+| 001   | 701_Insert_Into_Binary_Search_Tree    | 15th Aug. 2021    | C#           |
 
 ## **Others**</span>
 
