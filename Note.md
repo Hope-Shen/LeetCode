@@ -1,3 +1,5 @@
+# LeetCode
+
 ## <span style="color:LightGreen">**EASY**</span>
 
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -24,15 +26,19 @@
 | 020   | 026_Remove_Duplicates                 | 9th Aug. 2021     | C#           | Array                                   |
 | 021   | 027_Remove_Element                    | 9th Aug. 2021     | C#           | Array                                   |
 | 021   | 020_Valid_Parentheses                 | 9th Aug. 2021     | C#           | String, Dictionary                      |
-| 022   | 144_BTree_Preorder_Traversal          | 9th Aug. 2021     | C#           | Tree, Iteratively(stack), Recursive)    |
-| 023   | 094_BTree_Inorder_Traversal           | 9th Aug. 2021     | C#           | Tree, Iteratively(stack), Recursive)    |
-| 024   | 226_Invert_Binary_Tree                | 10th Aug. 2021    | C#           | Tree, Iteratively(stack), Recursive)    |
-| 025   | 112_Path_Sum                          | 10th Aug. 2021    | C#           | Tree, Iteratively(stack), Recursive)    |
-| 026   | 104_Maximum_Depth_of_Binary_Tree      | 10th Aug. 2021    | C#           | Tree, Iteratively(queue), Recursive     |
+| 022   | 144_BTree_Preorder_Traversal          | 9th Aug. 2021     | C#           | Tree, Iterative(stack), Recursive       |
+| 023   | 094_BTree_Inorder_Traversal           | 9th Aug. 2021     | C#           | Tree, Iterative(stack), Recursive       |
+| 024   | 226_Invert_Binary_Tree                | 10th Aug. 2021    | C#           | Tree, Iterative(stack), Recursive       |
+| 025   | 112_Path_Sum                          | 10th Aug. 2021    | C#           | Tree, Iterative(stack), Recursive       |
+| 026   | 104_Maximum_Depth_of_Binary_Tree      | 10th Aug. 2021    | C#           | Tree, Iterative(queue), Recursive       |
 | 027   | 409_Longest_Palindrome                | 14th Aug. 2021    | C#           | String, Dictionary, HashSet             |
 | 028   | 383_Ransom_Note                       | 15th Aug. 2021    | C#           | List                                    |
 | 029   | 118_Pascals_Triangle                  | 15th Aug. 2021    | C#           | List                                    |
 | 030   | 101_Symmetric_Tree                    | 15th Aug. 2021    | C#           | Tree, Recursive                         |
+| 031   | 704_Binary_Search                     | 15th Aug. 2021    | C#           | Array                                   |
+| 032   | 083_Remove_Duplicates_Sorted_List     | 16th Aug. 2021    | C#           | ListNode                                |
+| 033   | 024_Swap_Nodes_Pairs                  | 16th Aug. 2021    | C#           | ListNode                                |
+| 034   | 283_Move_Zeroes                       | 19th Aug. 2021    | C#           | Array                                   |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
@@ -43,8 +49,10 @@
 
 ## **Others**</span>
 
-| #     | Problem                       | Complete Date     | Language     | Tags                                    |
-| :---  | :---                          |    :----          | :----:       | :----:                                  |
-| 001   | Bubble Sort                   | 11th Jul. 2021    | C#           |                                         |
-| 002   | Selection Sort                | 23th Jul. 2021    | C#           |                                         |
-| 003   | Insertion Sort                | 27th Jul. 2021    | C#           |                                         |
+| #     | Problem                               | Complete Date     | Language     | Tags                                    |
+| :---  | :---                                  |    :----          | :----:       | :----:                                  |
+| 001   | Bubble Sort                           | 11th Jul. 2021    | C#           |                                         |
+| 002   | Selection Sort                        | 23th Jul. 2021    | C#           |                                         |
+| 003   | Insertion Sort                        | 27th Jul. 2021    | C#           |                                         |
+| 004   | Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+
