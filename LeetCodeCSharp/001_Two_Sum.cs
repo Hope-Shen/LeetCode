@@ -29,7 +29,7 @@ namespace LeetCodeCSharp_Two_Sum
     {
         // Time complexity: O(n^2)
         // Space complexity: O(1)
-        public static int[] TwoSum(int[] nums, int target)
+        public static int[] TwoSum_1(int[] nums, int target)
         {
             int[] arr = new int[2];
             for (int i = 0; i < nums.Length; i++)
@@ -47,13 +47,38 @@ namespace LeetCodeCSharp_Two_Sum
             return arr;
         }
 
+        // Time complexity: O(n)
+        // Space complexity: O(n)
+        public static int[] TwoSum_2(int[] nums, int target)
+        {
+            int[] arr = new int[2];
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (dic.ContainsKey(nums[i]))
+                {
+                    arr[0] = dic[nums[i]];
+                    arr[1] = i;
+                    return arr;
+                }
+                // key is index value, value is array index
+                dic.Add(target - nums[i], i);
+            }
+            return arr;
+        }
+
         // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
-            Console.WriteLine("-----Two Sum-----");
-            Console.WriteLine(string.Join(", ", TwoSum(new int[] { 2, 7, 11, 15 }, 9)));
-            Console.WriteLine(string.Join(", ", TwoSum(new int[] { 3, 2, 4 }, 6)));
-            Console.WriteLine(string.Join(", ", TwoSum(new int[] { 3, 3 }, 6)));
+            Console.WriteLine("-----Two Sum_1-----");
+            Console.WriteLine(string.Join(", ", TwoSum_1(new int[] { 2, 7, 11, 15 }, 9)));
+            Console.WriteLine(string.Join(", ", TwoSum_1(new int[] { 3, 2, 4 }, 6)));
+            Console.WriteLine(string.Join(", ", TwoSum_1(new int[] { 3, 3 }, 6)));
+
+            Console.WriteLine("-----Two Sum_2-----");
+            Console.WriteLine(string.Join(", ", TwoSum_2(new int[] { 2, 7, 11, 15 }, 9)));
+            Console.WriteLine(string.Join(", ", TwoSum_2(new int[] { 3, 2, 4 }, 6)));
+            Console.WriteLine(string.Join(", ", TwoSum_2(new int[] { 3, 3 }, 6)));
         }
     }
 }

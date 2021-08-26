@@ -33,7 +33,7 @@ namespace LeetCodeCSharp_Merge_Two_Lists
         {
             if (l1 == null && l2 == null) return null;
             if (l1 == null) return l2;
-            if (l2 == null) return l1; 
+            if (l2 == null) return l1;
 
             if (l1.val < l2.val)
             {
@@ -89,7 +89,7 @@ namespace LeetCodeCSharp_Merge_Two_Lists
             //     Console.Write(resultList_1.val);
             //     resultList_1 = resultList_1.next;
             // }
-            
+
             ListNode resultList_2 = MergeTwoLists_2(l1, l2);
             while (resultList_2 != null)
             {

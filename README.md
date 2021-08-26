@@ -37,8 +37,8 @@
 | 030   | 101_Symmetric_Tree                    | 15th Aug. 2021    | C#           | Tree, Recursive                         |
 | 031   | 704_Binary_Search                     | 15th Aug. 2021    | C#           | Array                                   |
 | 032   | 083_Remove_Duplicates_Sorted_List     | 16th Aug. 2021    | C#           | ListNode                                |
-| 033   | 024_Swap_Nodes_Pairs                  | 16th Aug. 2021    | C#           | ListNode                                |
-| 034   | 283_Move_Zeroes                       | 19th Aug. 2021    | C#           | Array                                   |
+| 033   | 283_Move_Zeroes                       | 19th Aug. 2021    | C#           | Array                                   |
+| 034   | 252_Meeting_Rooms                     | 20th Aug. 2021    | C#           | 2D Array                                |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 
@@ -46,13 +46,18 @@
 | :---  | :---                                  |    :----          | :----:       | :----:                                  |
 | 001   | 701_Insert_Into_Binary_Search_Tree    | 15th Aug. 2021    | C#           | Tree, Recursive                         |
 | 002   | 285_Inorder_Successor_BSTree          | 15th Aug. 2021    | C#           | Tree, Iteratively                       |
+| 003   | 024_Swap_Nodes_Pairs                  | 16th Aug. 2021    | C#           | ListNode                                |
+| 004   | 451_Sort_Characters_By_Frequency      | 20th Aug. 2021    | C#           | String, Dictionary, stringBuilder       |
+| 005   | 253_Meeting_Rooms_II                  | 20th Aug. 2021    | C#           | 2D Array                                |
 
 ## **Others**</span>
 
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |
 | :---  | :---                                  |    :----          | :----:       | :----:                                  |
-| 001   | Bubble Sort                           | 11th Jul. 2021    | C#           |                                         |
-| 002   | Selection Sort                        | 23th Jul. 2021    | C#           |                                         |
-| 003   | Insertion Sort                        | 27th Jul. 2021    | C#           |                                         |
-| 004   | Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+| 001   | Bubble_Sort                           | 11th Jul. 2021    | C#           | Array                                   |
+| 002   | Selection_Sort                        | 23th Jul. 2021    | C#           | Array                                   |
+| 003   | Insertion_Sort                        | 27th Jul. 2021    | C#           | Array                                   |
+| 004   | Reverse_String_Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+| 005   | Missing_Number_In_Array               | 21th Aug. 2021    | C#           | Array                                   |
+| 006   | Merge_Sort                            | 26th Aug. 2021    | C#           | Array, Recursive                        |
 
