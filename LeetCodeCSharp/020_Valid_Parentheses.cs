@@ -37,7 +37,7 @@ namespace LeetCodeCSharp_Valid_Parentheses
     public class Valid_Parentheses
     {
         // Time complexity: O(n)
-        // Space complexity: O(n))
+        // Space complexity: O(n)
         public static bool IsValid(string s)
         {
             if (s.Length <= 1) return false;

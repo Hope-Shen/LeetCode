@@ -1,45 +1,72 @@
 # LeetCode
 
 ## <span style="color:LightGreen">**EASY**</span>
+### String
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 013 Roman to Integer                  | 9th Jan.  2021    | Python       |                                         |
+| 014 Longest Common Prefix             | 12th May. 2021    | Python       |                                         |
+| 014 Longest Common Prefix             | 11th Sep. 2021    | C#           | String Array                            |
+| 020 Valid Parentheses                 | 12th May. 2021    | Python       |                                         |
+| 020 Valid Parentheses                 | 9th Aug. 2021     | C#           | Dictionary                              |
+| 125 Valid Palindrome                  | 12th Jun. 2021    | C#           | Regex                                   |
+| 412 Fizz Buzz                         | 22th Jun. 2021    | C#           | List                                    |
+| 387 First Unique Char in Str          | 8th Aug. 2021     | C#           | Dictionary                              |
+| 409 Longest Palindrome                | 14th Aug. 2021    | C#           | Dictionary, HashSet                     |
+| 383 Ransom Note                       | 15th Aug. 2021    | C#           | StringList                              |
+| 118 Pascals Triangle                  | 15th Aug. 2021    | C#           | List                                    |
 
-| #     | Problem                               | Complete Date     | Language     | Tags                                    |
-| :---  | :---                                  |    :----          | :----        | :----:                                  |
-| 001   | 001 Two Sum                           | 5th Jan.  2021    | Python       |                                         |
-| 002   | 007 Reverse Integer                   | 7th Jan.  2021    | Python       |                                         |
-| 003   | 009 Palindrome Number                 | 7th Jan.  2021    | Python       |                                         |
-| 004   | 013 Roman to Integer                  | 9th Jan.  2021    | Python       |                                         |
-| 005   | 014 Longest Common Prefix             | 12th May. 2021    | Python       |                                         |
-| 006   | 020 Valid Parentheses                 | 12th May. 2021    | Python       |                                         |
-| 007   | 021 Merge Two Sorted Lists            | 10th Jun. 2021    | C#           | ListNode                                |
-| 008   | 125 Valid Palindrome                  | 12th Jun. 2021    | C#           | String, Regex                           |
-| 009   | 412 Fizz Buzz                         | 22th Jun. 2021    | C#           | String, List                            |
-| 010   | 700 Search BST                        | 6th Jul. 2021     | C#           | Tree, Recursive                         |
-| 011   | 217 Cotains Duplicate                 | 28th Jul. 2021    | C#           | Array                                   |
-| 012   | 053 Max SubArray                      | 29th Jul. 2021    | C#           | Array                                   |
-| 013   | 001 Two Sum                           | 30th Jul. 2021    | C#           | Array                                   |
-| 014   | 088 Merge Sorted Array                | 30th Jul. 2021    | C#           | Array                                   |
-| 015   | 350 Intersection Of Two Arrays II     | 3rd Aug. 2021     | C#           | Array, List                             |
-| 016   | 121 Best Time To Buy And Sell Stock   | 5th Aug. 2021     | C#           | Array                                   |
-| 017   | 566 Reshape Matrix                    | 7th Aug. 2021     | C#           | Array                                   |
-| 018   | 206 Reverse Linked List               | 7th Aug. 2021     | C#           | ListNode                                |
-| 019   | 387 First Unique Char in Str          | 8th Aug. 2021     | C#           | String, Dictionary                      |
-| 020   | 026 Remove Duplicates                 | 9th Aug. 2021     | C#           | Array                                   |
-| 021   | 027 Remove Element                    | 9th Aug. 2021     | C#           | Array                                   |
-| 021   | 020 Valid Parentheses                 | 9th Aug. 2021     | C#           | String, Dictionary                      |
-| 022   | 144 BTree Preorder Traversal          | 9th Aug. 2021     | C#           | Tree, Iterative(stack), Recursive       |
-| 023   | 094 BTree Inorder Traversal           | 9th Aug. 2021     | C#           | Tree, Iterative(stack), Recursive       |
-| 024   | 226 Invert Binary Tree                | 10th Aug. 2021    | C#           | Tree, Iterative(stack), Recursive       |
-| 025   | 112 Path Sum                          | 10th Aug. 2021    | C#           | Tree, Iterative(stack), Recursive       |
-| 026   | 104 Maximum Depth of Binary Tree      | 10th Aug. 2021    | C#           | Tree, Iterative(queue), Recursive       |
-| 027   | 409 Longest Palindrome                | 14th Aug. 2021    | C#           | String, Dictionary, HashSet             |
-| 028   | 383 Ransom Note                       | 15th Aug. 2021    | C#           | List                                    |
-| 029   | 118 Pascals Triangle                  | 15th Aug. 2021    | C#           | List                                    |
-| 030   | 101 Symmetric Tree                    | 15th Aug. 2021    | C#           | Tree, Recursive                         |
-| 031   | 704 Binary Search                     | 15th Aug. 2021    | C#           | Array                                   |
-| 032   | 083 Remove Duplicates Sorted List     | 16th Aug. 2021    | C#           | ListNode                                |
-| 033   | 283 Move Zeroes                       | 20th Aug. 2021    | C#           | Array                                   |
-| 034   | 252 Meeting Rooms                     | 20th Aug. 2021    | C#           | 2D Array                                |
-| 035   | 167 Two Sum II - Input array is sorted| 7th Sep. 2021     | C#           | 2D Array, Two pointer                   |
+### Array
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 001 Two Sum                           | 5th Jan.  2021    | Python       |                                         |
+| 001 Two Sum                           | 30th Jul. 2021    | C#           |                                         |
+| 167 Two Sum II - Input array is sorted| 7th Sep. 2021     | C#           | Two pointer                             |
+| 217 Cotains Duplicate                 | 28th Jul. 2021    | C#           |                                         |
+| 053 Max SubArray                      | 29th Jul. 2021    | C#           |                                         |
+| 088 Merge Sorted Array                | 30th Jul. 2021    | C#           |                                         |
+| 350 Intersection Of Two Arrays II     | 3rd Aug. 2021     | C#           | Array, List                             |
+| 121 Best Time To Buy And Sell Stock   | 5th Aug. 2021     | C#           |                                         |
+| 566 Reshape Matrix                    | 7th Aug. 2021     | C#           |                                         |
+| 026 Remove Duplicates                 | 9th Aug. 2021     | C#           |                                         |
+| 027 Remove Element                    | 9th Aug. 2021     | C#           |                                         |
+| 704 Binary Search                     | 15th Aug. 2021    | C#           |                                         |
+| 283 Move Zeroes                       | 20th Aug. 2021    | C#           | Array, Two pointer                      |
+| 1287 Element Appearing More Than 25% In Sorted Array | 10th Sep. 2021    | C#           | Dictionary,  Binary search      |
+
+
+### Linked List
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 021 Merge Two Sorted Lists            | 10th Jun. 2021    | C#           |                                         |
+| 206 Reverse Linked List               | 7th Aug. 2021     | C#           |                                         |
+| 083 Remove Duplicates Sorted List     | 16th Aug. 2021    | C#           |                                         |
+| 234 Palindrome Linked List            | 8th Sep. 2021     | C#           | Two pointer                             |
+
+### Tree
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 700 Search BST                        | 6th Jul. 2021     | C#           | Recursive                               |
+| 144 BTree Preorder Traversal          | 9th Aug. 2021     | C#           | Iterative(stack), Recursive             |
+| 094 BTree Inorder Traversal           | 9th Aug. 2021     | C#           | Iterative(stack), Recursive             |
+| 226 Invert Binary Tree                | 10th Aug. 2021    | C#           | Iterative(stack), Recursive             |
+| 112 Path Sum                          | 10th Aug. 2021    | C#           | Iterative(stack), Recursive             |
+| 104 Maximum Depth of Binary Tree      | 10th Aug. 2021    | C#           | Iterative(queue), Recursive             |
+| 101 Symmetric Tree                    | 15th Aug. 2021    | C#           | Recursive                               |
+
+### int
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 007 Reverse Integer                   | 7th Jan.  2021    | Python       |                                         |
+| 009 Palindrome Number                 | 7th Jan.  2021    | Python       |                                         |
+
+
+### Other
+| Problem                               | Complete Date     | Language     | Tags                                    |
+| :---                                  |    :----          | :----        | :----:                                  |
+| 252 Meeting Rooms                     | 20th Aug. 2021    | C#           | 2D Array                                |
+
+
 
 ## <span style="color:Orange">**MEDIUM**</span>
 

@@ -39,14 +39,13 @@ namespace LeetCodeCSharp_Reverse_Linked_List
             if (head == null || head.next == null) return head;
 
             ListNode result = null;
-            ListNode curr = head;
 
-            while (curr != null) 
+            while (head != null) 
             {
-                ListNode next = curr.next;
-                curr.next = result;
-                result = curr;
-                curr = next;
+                ListNode next = head.next;
+                head.next = result;
+                result = head;
+                head = next;
             }
             return result;
         }
@@ -55,17 +54,17 @@ namespace LeetCodeCSharp_Reverse_Linked_List
         static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Reverse Linked List-----");
-            // ListNode l1 = new ListNode(1);
-            // l1.next = new ListNode(2);
-            // l1.next.next = new ListNode(3);
-            // l1.next.next.next = new ListNode(4);
-            // l1.next.next.next.next = new ListNode(5);
-            // ListNode resultList = ReverseList(l1);
+            ListNode l1 = new ListNode(1);
+            l1.next = new ListNode(2);
+            l1.next.next = new ListNode(3);
+            l1.next.next.next = new ListNode(4);
+            l1.next.next.next.next = new ListNode(5);
+            ListNode resultList = ReverseList(l1);
 
-            ListNode l2 = new ListNode(1);
-            l2.next = new ListNode(3);
-            l2.next.next = new ListNode(4);
-            ListNode resultList = ReverseList(l2);
+            // ListNode l2 = new ListNode(1);
+            // l2.next = new ListNode(3);
+            // l2.next.next = new ListNode(4);
+            // ListNode resultList = ReverseList(l2);
 
             while (resultList != null)
             {

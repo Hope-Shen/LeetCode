@@ -29,7 +29,7 @@ namespace LeetCodeCSharp_Two_Sum_sorted
     Output: [1,2]
     */
 
-    class Two_Sum
+    class Two_Sum_sorted
     {
         // Two pointer
         // Time complexity: O(n)
