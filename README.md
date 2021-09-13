@@ -42,9 +42,13 @@
 | 036   | 234 Palindrome Linked List            | 8th Sep. 2021     | C#           |
 | 037   | 1287 Element Appearing More Than 25% In Sorted Array | 10th Sep. 2021    | C#           |
 | 038   | 014 Longest Common Prefix             | 11th Sep. 2021    | C#           | 
-| 039   | 1133_Largest Unique Number            | 12th Sep. 2021    | C#           |
-| 040   | 1295_Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#           |
-| 041   | 1232_Check If It Is a Straight Line   | 12th Sep. 2021    | C#           |
+| 039   | 1133 Largest Unique Number            | 12th Sep. 2021    | C#           |
+| 040   | 1295 Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#           |
+| 041   | 1232 Check If It Is a Straight Line   | 12th Sep. 2021    | C#           |
+| 042   | 674 Longest Continuous Increasing Subsequence | 13th Sep. 2021    | C#           |
+| 043   | 70 Climbing Stairs                    | 13th Sep.  2021   | Python       |
+| 044   | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           |
+| 045   | 162 Find Peak Element                 | 13th Sep. 2021    | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 | #     | Problem                               | Complete Date     | Language     |

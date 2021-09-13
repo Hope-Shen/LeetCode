@@ -40,7 +40,7 @@ namespace LeetCodeCSharp_Check_Straight_Line
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Check If It Is a Straight Line-----");
             int[][] coordinates = new int[][]

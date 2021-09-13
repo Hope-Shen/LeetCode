@@ -35,9 +35,13 @@
 | 283 Move Zeroes                       | 20th Aug. 2021    | C#           | Array, Two pointer                      |
 | 252 Meeting Rooms                     | 20th Aug. 2021    | C#           | 2D Array                                |
 | 1287 Element Appearing More Than 25% In Sorted Array | 10th Sep. 2021    | C#           | Dictionary,  Binary search      |
-| 1133_Largest Unique Number            | 12th Sep. 2021    | C#           | int Array, Dictionary                   |
-| 1295_Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#    | int Array                               |
-| 1232_Check If It Is a Straight Line   | 12th Sep. 2021    | C#           | 2D Array, Mathematic                    |
+| 1133 Largest Unique Number            | 12th Sep. 2021    | C#           | int Array, Dictionary                   |
+| 1295 Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#    | int Array                               |
+| 1232 Check If It Is a Straight Line   | 12th Sep. 2021    | C#           | 2D Array, Mathematic                    |
+| 674 Longest Continuous Increasing Subsequence | 13th Sep. 2021    | C#           |                                         |
+| 1046 Last Stone Weight                | 13th Sep. 2021    | C#           | int Array                               |
+| 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           | int Array                            |
+| 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array                               |
 
 ### Linked List
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -63,7 +67,7 @@
 | :---                                  |    :----          | :----        | :----:                                  |
 | 007 Reverse Integer                   | 7th Jan.  2021    | Python       |                                         |
 | 009 Palindrome Number                 | 7th Jan.  2021    | Python       |                                         |
-
+| 70_Climbing Stairs                    | 13th Sep.  2021   | Python       | Dynamic Programming                     |
 
 ### Other
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -79,6 +83,8 @@
 | 003   | 024 Swap Nodes Pairs                  | 16th Aug. 2021    | C#           | ListNode                                |
 | 004   | 451 Sort Characters By Frequency      | 20th Aug. 2021    | C#           | String, Dictionary, stringBuilder       |
 | 005   | 253 Meeting Rooms II                  | 20th Aug. 2021    | C#           | 2D Array                                |
+| 006   | 139 Word Break                        | 13th Sep. 2021    | C#           | Dynamic Programming                     |
+
 
 ## **Others**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |
