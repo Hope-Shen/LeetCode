@@ -98,7 +98,7 @@ namespace LeetCodeCSharp_Merge_Sort
         // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
-            Console.WriteLine("-----Insertion Sort-----");
+            Console.WriteLine("-----Merge Sort-----");
             int[] arr = { 3, 4, 5, 1, 2 };
             Console.WriteLine(string.Join(", ", MergeSort(arr)));
 

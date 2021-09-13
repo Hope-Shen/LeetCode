@@ -1,7 +1,6 @@
 # LeetCode
 
 ## <span style="color:LightGreen">**EASY**</span>
-
 | #     | Problem                               | Complete Date     | Language     |
 | :---  | :---                                  |    :----          | :----        |
 | 001   | 001 Two Sum                           | 5th Jan.  2021    | Python       |
@@ -43,8 +42,11 @@
 | 036   | 234 Palindrome Linked List            | 8th Sep. 2021     | C#           |
 | 037   | 1287 Element Appearing More Than 25% In Sorted Array | 10th Sep. 2021    | C#           |
 | 038   | 014 Longest Common Prefix             | 11th Sep. 2021    | C#           | 
-## <span style="color:Orange">**MEDIUM**</span>
+| 039   | 1133_Largest Unique Number            | 12th Sep. 2021    | C#           |
+| 040   | 1295_Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#           |
+| 041   | 1232_Check If It Is a Straight Line   | 12th Sep. 2021    | C#           |
 
+## <span style="color:Orange">**MEDIUM**</span>
 | #     | Problem                               | Complete Date     | Language     |
 | :---  | :---                                  |    :----          | :----:       | 
 | 001   | 701 Insert Into Binary Search Tree    | 15th Aug. 2021    | C#           |
@@ -54,13 +56,14 @@
 | 005   | 253 Meeting Rooms II                  | 20th Aug. 2021    | C#           |
 
 ## **Others**</span>
-
-| #     | Problem                               | Complete Date     | Language     |
-| :---  | :---                                  |    :----          | :----:       |
-| 001   | Bubble Sort                           | 11th Jul. 2021    | C#           |
-| 002   | Selection Sort                        | 23th Jul. 2021    | C#           |
-| 003   | Insertion Sort                        | 27th Jul. 2021    | C#           |
-| 004   | Reverse String Recursion              | 17th Aug. 2021    | C#           |
-| 005   | Missing Number In Array               | 21th Aug. 2021    | C#           |
-| 006   | Merge Sort                            | 26th Aug. 2021    | C#           |
-
+| #     | Problem                               | Complete Date     | Language     | Tags                                    |
+| :---  | :---                                  |    :----          | :----:       | :----:                                  |
+| 001   | O01_Bubble Sort                       | 11th Jul. 2021    | C#           | Array                                   |
+| 002   | O02_Selection Sort                    | 23th Jul. 2021    | C#           | Array                                   |
+| 003   | O03_Insertion Sort                    | 27th Jul. 2021    | C#           | Array                                   |
+| 004   | Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+| 005   | O04_Missing Number In Array           | 21th Aug. 2021    | C#           | Array                                   |
+| 006   | O05_Merge Sort                        | 26th Aug. 2021    | C#           | Array, Recursive                        |
+| 007   | O06_String EvenOdd                    | 12th Sep. 2021    | C#           | string                                  |
+| 008   | O07_Substring StartEnd 1              | 12th Sep. 2021    | C#           | string                                  |
+| 009   | O08_Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
