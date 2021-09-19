@@ -52,7 +52,7 @@ namespace LeetCodeCSharp_Quick_sort
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void _fun_Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Quick Sort-----");
             int[] arr = { 3, 4, 5, 1, 2 };

@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace LeetCodeCSharp_Cotains_Duplicate
 {
@@ -28,9 +29,9 @@ namespace LeetCodeCSharp_Cotains_Duplicate
         //   -> b/c Sorting(line 32) is O(nlogn) and the sweeping is O(n). The entire algorithm is dominated by the sorting step, which is O(nlogn).
         // Space complexity: O(log n)
         //   -> b/c Sorting(line 32) is O(logn). 
-        public static bool ContainsDuplicate(int[] nums)
+        public static bool ContainsDuplicate_1(int[] nums)
         {
-            Array.Sort(nums); 
+            Array.Sort(nums);
             int num_len = nums.Length;
             for (int i = 1; i < num_len; i++)
             {
@@ -42,18 +43,44 @@ namespace LeetCodeCSharp_Cotains_Duplicate
             return false;
         }
 
-        // run code should change this function name with Main instead of fun_Main
-        static void fun_Main(string[] args)
+        // Time complexity: O(n)
+        // Space complexity: O(n)
+        public static bool ContainsDuplicate_2(int[] nums)
         {
-            Console.WriteLine("-----Cotains Duplicate-----");
+            HashSet<int> hs = new HashSet<int>();
+            foreach (var x in nums)
+            {
+                if (hs.Contains(x))
+                {
+                    return true;
+                }
+                hs.Add(x);
+            }
+            return false;
+        }
+
+        // run code should change this function name with Main instead of fun_Main
+        static void Main(string[] args)
+        {
+            Console.WriteLine("-----Cotains Duplicate_1-----");
             int[] arr = { 1, 2, 3, 1 };
-            Console.WriteLine(ContainsDuplicate(arr));
+            Console.WriteLine(ContainsDuplicate_1(arr));
 
             int[] arr_2 = { 1, 2, 3, 4 };
-            Console.WriteLine(ContainsDuplicate(arr_2));
+            Console.WriteLine(ContainsDuplicate_1(arr_2));
 
             int[] arr_3 = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
-            Console.WriteLine(ContainsDuplicate(arr_3));
+            Console.WriteLine(ContainsDuplicate_1(arr_3));
+
+            Console.WriteLine("-----Cotains Duplicate_-----");
+            int[] arr_4 = { 1, 2, 3, 1 };
+            Console.WriteLine(ContainsDuplicate_2(arr_4));
+
+            int[] arr_5 = { 1, 2, 3, 4 };
+            Console.WriteLine(ContainsDuplicate_2(arr_5));
+
+            int[] arr_6 = { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
+            Console.WriteLine(ContainsDuplicate_2(arr_6));
         }
     }
 }

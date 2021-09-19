@@ -38,15 +38,15 @@ namespace LeetCodeCSharp_Symmetric_Tree
         // Space complexity: O(n)
         public static bool IsSymmetric(TreeNode root)
         {
-            if(root == null) return true;
+            if (root == null) return true;
             return IsMirror(root, root);
         }
 
         public static bool IsMirror(TreeNode left_root, TreeNode right_root)
         {
             if (left_root == null && right_root == null) return true;
-            if(left_root == null || right_root == null) return false;
-            if(left_root.val != right_root.val) return false;
+            if (left_root == null || right_root == null) return false;
+            if (left_root.val != right_root.val) return false;
             return IsMirror(left_root.left, right_root.right) && IsMirror(left_root.right, right_root.left);
         }
 
@@ -62,14 +62,14 @@ namespace LeetCodeCSharp_Symmetric_Tree
             t1.right.left = new TreeNode(4);
             t1.right.right = new TreeNode(3);
             Console.WriteLine(IsSymmetric(t1));
-            
+
             TreeNode t2 = new TreeNode(1);
             t2.left = new TreeNode(2);
             t2.right = new TreeNode(2);
             t2.left.left = new TreeNode(3);
             t2.right.right = new TreeNode(3);
             Console.WriteLine(IsSymmetric(t2));
-            
+
             TreeNode t3 = new TreeNode(1);
             t3.left = new TreeNode(2);
             t3.right = new TreeNode(2);

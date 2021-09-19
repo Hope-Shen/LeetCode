@@ -49,7 +49,6 @@ namespace LeetCodeCSharp_Remove_Duplicates
         {
             if (nums.Length == 0) return 0;
             int idx = 0;
-            int curr = nums[idx];
 
             for (int i = 1; i < nums.Length; i++)
             {

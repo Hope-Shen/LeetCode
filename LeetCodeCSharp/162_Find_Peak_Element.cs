@@ -41,8 +41,29 @@ namespace LeetCodeCSharp_Find_Peak_Element
             return result;
         }
 
+        // Binary Search
+        // Time complexity: O(log n)
+        // Space complexity: O(1)
+        public static int FindPeakElement_2(int[] nums)
+        {
+            int left = 0, right = nums.Length - 1;
+            while (left < right)
+            {
+                int mid = (left + right) / 2;
+                if (nums[mid] > nums[mid + 1])
+                {
+                    right = mid;
+                }
+                else
+                {
+                    left = mid + 1;
+                }
+            }
+            return left;
+        }
+
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Find Peak Element_1-----");
             Console.WriteLine(FindPeakElement_1(new int[] { 1, 2, 3, 1 }));
@@ -50,6 +71,13 @@ namespace LeetCodeCSharp_Find_Peak_Element
             Console.WriteLine(FindPeakElement_1(new int[] { 2, 1, 2 }));
             Console.WriteLine(FindPeakElement_1(new int[] { 1, 2 }));
             Console.WriteLine(FindPeakElement_1(new int[] { 1 }));
+
+            Console.WriteLine("-----Find Peak Element_2-----");
+            Console.WriteLine(FindPeakElement_2(new int[] { 1, 2, 3, 1 }));
+            Console.WriteLine(FindPeakElement_2(new int[] { 1, 2, 1, 3, 5, 6, 4 }));
+            Console.WriteLine(FindPeakElement_2(new int[] { 2, 1, 2 }));
+            Console.WriteLine(FindPeakElement_2(new int[] { 1, 2 }));
+            Console.WriteLine(FindPeakElement_2(new int[] { 1 }));
         }
     }
 }

@@ -7,20 +7,16 @@ namespace LeetCodeCSharp_Pascals_Triangle
     118_Pascals_Triangle
     2021/08/15
 
-    Given two stings ransomNote and magazine, return true if ransomNote can be constructed from magazine and false otherwise.
-    Each letter in magazine can only be used once in ransomNote.
+    Given an integer numRows, return the first numRows of Pascal's triangle.
+    In Pascal's triangle, each number is the sum of the two numbers directly above it as shown:
 
     Example 1:
-    Input: ransomNote = "a", magazine = "b"
-    Output: false
+    Input: numRows = 5
+    Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
     
     Example 2:
-    Input: ransomNote = "aa", magazine = "ab"
-    Output: false
-    
-    Example 3:
-    Input: ransomNote = "aa", magazine = "aab"
-    Output: true
+    Input: numRows = 1
+    Output: [[1]]
     */
     public class Pascals_Triangle
     {

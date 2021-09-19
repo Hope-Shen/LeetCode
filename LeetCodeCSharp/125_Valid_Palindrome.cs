@@ -28,19 +28,21 @@ namespace LeetCodeCSharp_Valid_Palindrome
 
     class Valid_Palindrome
     {
+        // Time complexity: O(n)
+        // Space complexity: O(n)
         public static bool IsPalindrome_1(string s)
         {
             var newStr = new StringBuilder();
-            foreach(char c in s.ToUpper())
+            foreach (char c in s.ToUpper())
             {
-                if(char.IsLetterOrDigit(c))
+                if (char.IsLetterOrDigit(c))
                 {
                     newStr.Append(c);
                 }
             }
 
             var newStr_filtered = new StringBuilder();
-            for(int i = newStr.ToString().Length-1; i>=0; i--)
+            for (int i = newStr.ToString().Length - 1; i >= 0; i--)
             {
                 newStr_filtered.Append(newStr[i]);
             }
@@ -48,12 +50,14 @@ namespace LeetCodeCSharp_Valid_Palindrome
             return newStr.ToString().Equals(newStr_filtered.ToString()) ? true : false;
         }
 
+        // Time complexity: O(n)
+        // Space complexity: O(n)
         public static bool IsPalindrome_2(string s)
-        {   
+        {
             var newStr = new StringBuilder();
-            foreach(char c in s.ToUpper())
+            foreach (char c in s.ToUpper())
             {
-                if(char.IsLetterOrDigit(c))
+                if (char.IsLetterOrDigit(c))
                 {
                     newStr.Append(c);
                 }
@@ -64,8 +68,11 @@ namespace LeetCodeCSharp_Valid_Palindrome
             return newStr.ToString().Equals(new string(newChar)) ? true : false;
         }
 
+        // Two pointer
+        // Time complexity: O(n)
+        // Space complexity: O(1)
         public static bool IsPalindrome_3(string s)
-        {   
+        {
             string newStr = Regex.Replace(s, "[^A-Za-z0-9]", "").ToUpper();
             // var newStr = new StringBuilder();
             // foreach(char c in s.ToUpper())
@@ -76,10 +83,10 @@ namespace LeetCodeCSharp_Valid_Palindrome
             //     }
             // }
 
-            int left = 0, right = newStr.Length -1;
-            while(left < right)
+            int left = 0, right = newStr.Length - 1;
+            while (left < right)
             {
-                if(newStr[left] == newStr[right])
+                if (newStr[left] == newStr[right])
                 {
                     left++;
                     right--;
@@ -89,7 +96,7 @@ namespace LeetCodeCSharp_Valid_Palindrome
                     return false;
                 }
             }
-            
+
             return true;
         }
 
