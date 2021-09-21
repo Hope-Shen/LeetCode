@@ -41,7 +41,7 @@
 | 674 Longest Continuous Increasing Subsequence | 13th Sep. 2021    | C#           |                                         |
 | 1046 Last Stone Weight                | 13th Sep. 2021    | C#           | int Array                               |
 | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           | int Array                            |
-| 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array                               |
+| 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array, Binary Search                        |
 
 ### Linked List
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -74,7 +74,6 @@
 | :---                                  |    :----          | :----        | :----:                                  |
 
 
-
 ## <span style="color:Orange">**MEDIUM**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    | 
 | :---  | :---                                  |    :----          | :----:       | :----:                                  |
@@ -89,12 +88,13 @@
 ## **Others**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |
 | :---  | :---                                  |    :----          | :----:       | :----:                                  |
-| 001   | O01_Bubble Sort                       | 11th Jul. 2021    | C#           | Array                                   |
-| 002   | O02_Selection Sort                    | 23th Jul. 2021    | C#           | Array                                   |
-| 003   | O03_Insertion Sort                    | 27th Jul. 2021    | C#           | Array                                   |
-| 004   | Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
-| 005   | O04_Missing Number In Array           | 21th Aug. 2021    | C#           | Array                                   |
-| 006   | O05_Merge Sort                        | 26th Aug. 2021    | C#           | Array, Recursive                        |
-| 007   | O06_String EvenOdd                    | 12th Sep. 2021    | C#           | string                                  |
-| 008   | O07_Substring StartEnd 1              | 12th Sep. 2021    | C#           | string                                  |
-| 009   | O08_Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
+| 001   | O01 Bubble Sort                       | 11th Jul. 2021    | C#           | Array                                   |
+| 002   | O02 Selection Sort                    | 23th Jul. 2021    | C#           | Array                                   |
+| 003   | O03 Insertion Sort                    | 27th Jul. 2021    | C#           | Array                                   |
+| 004   | I01 Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+| 005   | O04 Missing Number In Array           | 21th Aug. 2021    | C#           | Array                                   |
+| 006   | O05 Merge Sort                        | 26th Aug. 2021    | C#           | Array, Recursive                        |
+| 007   | O06 String EvenOdd                    | 12th Sep. 2021    | C#           | string                                  |
+| 008   | O07 Substring StartEnd 1              | 12th Sep. 2021    | C#           | string                                  |
+| 009   | O08 Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
+| 010   | O09 Array Left Rotation               | 21th Sep. 2021    | C#           | Array                                   |

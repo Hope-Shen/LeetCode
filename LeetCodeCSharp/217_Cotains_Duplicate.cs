@@ -60,7 +60,7 @@ namespace LeetCodeCSharp_Cotains_Duplicate
         }
 
         // run code should change this function name with Main instead of fun_Main
-        static void Main(string[] args)
+        static void fun_Main(string[] args)
         {
             Console.WriteLine("-----Cotains Duplicate_1-----");
             int[] arr = { 1, 2, 3, 1 };
