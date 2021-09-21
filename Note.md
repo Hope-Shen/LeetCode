@@ -91,7 +91,7 @@
 | 001   | O01 Bubble Sort                       | 11th Jul. 2021    | C#           | Array                                   |
 | 002   | O02 Selection Sort                    | 23th Jul. 2021    | C#           | Array                                   |
 | 003   | O03 Insertion Sort                    | 27th Jul. 2021    | C#           | Array                                   |
-| 004   | I01 Reverse String Recursion              | 17th Aug. 2021    | C#           | String, Recursive                       |
+| 004   | I01 Reverse String Recursion          | 17th Aug. 2021    | C#           | String, Recursive                       |
 | 005   | O04 Missing Number In Array           | 21th Aug. 2021    | C#           | Array                                   |
 | 006   | O05 Merge Sort                        | 26th Aug. 2021    | C#           | Array, Recursive                        |
 | 007   | O06 String EvenOdd                    | 12th Sep. 2021    | C#           | string                                  |
