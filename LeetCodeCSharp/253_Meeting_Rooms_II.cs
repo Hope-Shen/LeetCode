@@ -24,7 +24,7 @@ namespace LeetCodeCSharp_Meeting_Rooms_II
     {
         // Time complexity: O(n log n)
         // Space complexity: O(n)
-        public static int MinMeetingRooms(int[][] intervals)
+        public static int MinMeetingRooms_1(int[][] intervals)
         {
             if (intervals.Length == 0 || intervals[0].Length == 0) return 0;
 
@@ -36,7 +36,7 @@ namespace LeetCodeCSharp_Meeting_Rooms_II
                 start_arr[i] = intervals[i][0];
                 end_arr[i] = intervals[i][1];
             }
-            
+
             // start[0, 5, 15]
             // end[30, 10, 20]
             Array.Sort(start_arr);
@@ -68,60 +68,131 @@ namespace LeetCodeCSharp_Meeting_Rooms_II
             return count;
         }
 
+        // Time complexity: O(n log n)
+        // Space complexity: O(1)
+        public static int MinMeetingRooms_2(int[][] intervals)
+        {
+            if (intervals.Length == 0 || intervals[0].Length == 0) return 0;
+            int result = 1;
+            Array.Sort(intervals, (a, b) => a[0] - b[0]);
+
+            for (int j = 0; j < intervals.Length - 1; j++)
+            {
+                if (intervals[j + 1][0] <= intervals[j][1])
+                {
+                    result++;
+                }
+            }
+
+            return result;
+        }
+
         // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
-            Console.WriteLine("-----Meeting Rooms_II-----");
-            int[][] meeting_1 = new int[][]
+            Console.WriteLine("-----Meeting Rooms_II_1-----");
+            int[][] meeting_11 = new int[][]
             {
                 new int[] {0,30},
                 new int[] {5,10},
                 new int[] {15,20}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_1));
+            Console.WriteLine(MinMeetingRooms_1(meeting_11));
 
-            int[][] meeting_2 = new int[][]
+            int[][] meeting_12 = new int[][]
             {
                 new int[] {7,10},
                 new int[] {2,4}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_2));
+            Console.WriteLine(MinMeetingRooms_1(meeting_12));
 
-            int[][] meeting_3 = new int[][]
+            int[][] meeting_13 = new int[][]
             {
                 new int[] {7,10},
                 new int[] {2,4},
                 new int[] {8,15}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_3));
+            Console.WriteLine(MinMeetingRooms_1(meeting_13));
 
-            int[][] meeting_4 = new int[][]
+            int[][] meeting_14 = new int[][]
             {
                 new int[] {7,10}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_4));
+            Console.WriteLine(MinMeetingRooms_1(meeting_14));
 
-            int[][] meeting_5 = new int[][]
+            int[][] meeting_15 = new int[][]
             {
                 new int[] {}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_5));
+            Console.WriteLine(MinMeetingRooms_1(meeting_15));
 
-            int[][] meeting_6 = new int[][]
+            int[][] meeting_16 = new int[][]
             {
                 new int[] {7,10},
                 new int[] {2,4},
                 new int[] {10,15}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_6));
+            Console.WriteLine(MinMeetingRooms_1(meeting_16));
 
-            int[][] meeting_7 = new int[][]
+            int[][] meeting_17 = new int[][]
             {
                 new int[] {7,10},
                 new int[] {2,8},
                 new int[] {6,12}
             };
-            Console.WriteLine(MinMeetingRooms(meeting_7));
+            Console.WriteLine(MinMeetingRooms_1(meeting_17));
+
+            Console.WriteLine("-----Meeting Rooms_II_2-----");
+            int[][] meeting_21 = new int[][]
+            {
+                new int[] {0,30},
+                new int[] {5,10},
+                new int[] {15,20}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_21));
+
+            int[][] meeting_22 = new int[][]
+            {
+                new int[] {7,10},
+                new int[] {2,4}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_22));
+
+            int[][] meeting_23 = new int[][]
+            {
+                new int[] {7,10},
+                new int[] {2,4},
+                new int[] {8,15}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_23));
+
+            int[][] meeting_24 = new int[][]
+            {
+                new int[] {7,10}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_24));
+
+            int[][] meeting_25 = new int[][]
+            {
+                new int[] {}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_25));
+
+            int[][] meeting_26 = new int[][]
+            {
+                new int[] {7,10},
+                new int[] {2,4},
+                new int[] {10,15}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_26));
+
+            int[][] meeting_27 = new int[][]
+            {
+                new int[] {7,10},
+                new int[] {2,8},
+                new int[] {6,12}
+            };
+            Console.WriteLine(MinMeetingRooms_2(meeting_27));
         }
     }
 }
