@@ -25,8 +25,8 @@ namespace LeetCodeCSharp_Ransom_Note
     public class Ransom_Note
     {
         // Time complexity: O(n)
-        // Space complexity: O(1)
-        public static bool CanConstruct(string ransomNote, string magazine)
+        // Space complexity: O(n)
+        public static bool CanConstruct_1(string ransomNote, string magazine)
         {
             if (ransomNote == "" || magazine == "") return false;
 
@@ -50,17 +50,63 @@ namespace LeetCodeCSharp_Ransom_Note
             return ls.Count == 0 ? true : false;
         }
 
+        // Time complexity: O(n)
+        // Space complexity: O(n)
+        public static bool CanConstruct_2(string ransomNote, string magazine)
+        {
+            if (ransomNote == "" || magazine == "") return false;
+
+            Dictionary<char, int> dic = new Dictionary<char, int>();
+            foreach (var r in ransomNote)
+            {
+                if (dic.ContainsKey(r))
+                {
+                    dic[r]++;
+                }
+                else
+                {
+                    dic.Add(r, 1);
+                }
+            }
+
+            foreach (var m in magazine)
+            {
+                if (dic.ContainsKey(m))
+                {
+                    if (dic[m] == 1)
+                    {
+                        dic.Remove(m);
+                    }
+                    else
+                    {
+                        dic[m]--;
+                    }
+                }
+            }
+
+            return dic.Count == 0 ? true : false;
+        }
+
         // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
-            Console.WriteLine("-----Ransom Note-----");
-            Console.WriteLine(CanConstruct("a", "b"));
-            Console.WriteLine(CanConstruct("aa", "ab"));
-            Console.WriteLine(CanConstruct("aa", "aab"));
-            Console.WriteLine(CanConstruct("aab", "baa"));
-            Console.WriteLine(CanConstruct("dee", "abcdeef"));
-            Console.WriteLine(CanConstruct("", "abcdeef"));
-            Console.WriteLine(CanConstruct("a", ""));
+            Console.WriteLine("-----Ransom Note_1-----");
+            Console.WriteLine(CanConstruct_1("a", "b"));
+            Console.WriteLine(CanConstruct_1("aa", "ab"));
+            Console.WriteLine(CanConstruct_1("aa", "aab"));
+            Console.WriteLine(CanConstruct_1("aab", "baa"));
+            Console.WriteLine(CanConstruct_1("dee", "abcdeef"));
+            Console.WriteLine(CanConstruct_1("", "abcdeef"));
+            Console.WriteLine(CanConstruct_1("a", ""));
+
+            Console.WriteLine("-----Ransom Note_2-----");
+            Console.WriteLine(CanConstruct_2("a", "b"));
+            Console.WriteLine(CanConstruct_2("aa", "ab"));
+            Console.WriteLine(CanConstruct_2("aa", "aab"));
+            Console.WriteLine(CanConstruct_2("aab", "baa"));
+            Console.WriteLine(CanConstruct_2("dee", "abcdeef"));
+            Console.WriteLine(CanConstruct_2("", "abcdeef"));
+            Console.WriteLine(CanConstruct_2("a", ""));
         }
     }
 }
