@@ -74,6 +74,36 @@ namespace LeetCodeCSharp_Intersection_Of_Two_Arrays_II
             return result.ToArray();
         }
 
+        // Time complexity: O(m+n)
+        // Space complexity: O(min(m,n))
+        public static int[] Intersect_3(int[] nums1, int[] nums2)
+        {
+            List<int> result = new List<int>();
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+            for (int i = 0; i < nums1.Length; i++)
+            {
+                if (dic.ContainsKey(nums1[i]))
+                {
+                    dic[nums1[i]]++;
+                }
+                else
+                {
+                    dic.Add(nums1[i], 1);
+                }
+            }
+
+            for (int j = 0; j < nums2.Length; j++)
+            {
+                if (dic.ContainsKey(nums2[j]) && dic[nums2[j]] > 0)
+                {
+                    result.Add(nums2[j]);
+                    dic[nums2[j]]--;
+                }
+            }
+
+            return result.ToArray();
+        }
+
         // run code should change this function name with Main instead of fun_Main
         static void fun_Main(string[] args)
         {
@@ -92,6 +122,14 @@ namespace LeetCodeCSharp_Intersection_Of_Two_Arrays_II
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { }, new int[] { 2, 3 })));
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { 1, 2, 2, 1 }, new int[] { 2 })));
             Console.WriteLine(string.Join(",", Intersect_2(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 })));
+
+            Console.WriteLine("-----Intersect Two Array_3-----");
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 })));
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { 4, 9, 5 }, new int[] { 9, 4, 9, 8, 4 })));
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { 1 }, new int[] { 2 })));
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { }, new int[] { 2, 3 })));
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { 1, 2, 2, 1 }, new int[] { 2 })));
+            Console.WriteLine(string.Join(",", Intersect_3(new int[] { 1, 2, 2, 1 }, new int[] { 2, 2 })));
         }
     }
 }
