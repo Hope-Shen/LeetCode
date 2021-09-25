@@ -41,7 +41,8 @@
 | 674 Longest Continuous Increasing Subsequence | 13th Sep. 2021    | C#           |                                         |
 | 1046 Last Stone Weight                | 13th Sep. 2021    | C#           | int Array                               |
 | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           | int Array                            |
-| 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array, Binary Search                        |
+| 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array, Binary Search                |
+| 937 Reorder Data in Log Files         | 25th Sep. 2021    | C#           | String                                  |
 
 ### Linked List
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -99,3 +100,4 @@
 | 009   | O08 Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
 | 010   | O09 Array Left Rotation               | 21th Sep. 2021    | C#           | Array                                   |
 | 011   | I02_List Busy TImetable               | 25th Sep. 2021    | C#           | List                                    |
+| 012   | I03_Sort Junction Box                 | 25th Sep. 2021    | C#           | List                                    |
