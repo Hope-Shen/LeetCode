@@ -3,7 +3,7 @@ using System;
 namespace LeetCodeCSharp_Climbing_Stairs
 {
     /*
-    70_Climbing Stairs
+    070_Climbing Stairs
     2021/09/13
 
     You are climbing a staircase. It takes n steps to reach the top.

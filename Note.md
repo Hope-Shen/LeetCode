@@ -67,7 +67,7 @@
 | :---                                  |    :----          | :----        | :----:                                  |
 | 007 Reverse Integer                   | 7th Jan.  2021    | Python       |                                         |
 | 009 Palindrome Number                 | 7th Jan.  2021    | Python       |                                         |
-| 70_Climbing Stairs                    | 13th Sep.  2021   | Python       | Dynamic Programming                     |
+| 070_Climbing Stairs                   | 13th Sep.  2021   | Python       | Dynamic Programming                     |
 
 ### Other
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -98,3 +98,4 @@
 | 008   | O07 Substring StartEnd 1              | 12th Sep. 2021    | C#           | string                                  |
 | 009   | O08 Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
 | 010   | O09 Array Left Rotation               | 21th Sep. 2021    | C#           | Array                                   |
+| 011   | I02_List Busy TImetable               | 25th Sep. 2021    | C#           | List                                    |

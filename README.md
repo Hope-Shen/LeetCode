@@ -46,7 +46,7 @@
 | 040   | 1295 Find Numbers with Even Number of Digits | 12th Sep. 2021    | C#           |
 | 041   | 1232 Check If It Is a Straight Line   | 12th Sep. 2021    | C#           |
 | 042   | 674 Longest Continuous Increasing Subsequence | 13th Sep. 2021    | C#           |
-| 043   | 70 Climbing Stairs                    | 13th Sep.  2021   | Python       |
+| 043   | 070 Climbing Stairs                   | 13th Sep.  2021   | Python       |
 | 044   | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           |
 | 045   | 162 Find Peak Element                 | 13th Sep. 2021    | C#           |
 
@@ -72,3 +72,5 @@
 | 008   | O07 Substring StartEnd 1              | 12th Sep. 2021    | C#           | string                                  |
 | 009   | O08 Quick Sort                        | 12th Sep. 2021    | C#           | Array                                   |
 | 010   | O09 Array Left Rotation               | 21th Sep. 2021    | C#           | Array                                   |
+| 011   | I02_List Busy TImetable               | 25th Sep. 2021    | C#           | List                                    |
+
