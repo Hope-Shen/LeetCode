@@ -74,7 +74,6 @@
 | Problem                               | Complete Date     | Language     | Tags                                    |
 | :---                                  |    :----          | :----        | :----:                                  |
 
-
 ## <span style="color:Orange">**MEDIUM**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    | 
 | :---  | :---                                  |    :----          | :----:       | :----:                                  |
@@ -84,7 +83,7 @@
 | 004   | 451 Sort Characters By Frequency      | 20th Aug. 2021    | C#           | String, Dictionary, stringBuilder       |
 | 005   | 253 Meeting Rooms II                  | 20th Aug. 2021    | C#           | 2D Array                                |
 | 006   | 139 Word Break                        | 13th Sep. 2021    | C#           | Dynamic Programming                     |
-
+| 006   | 215 Kth Largest Element in an Array   | 28th Sep. 2021    | C#           | Quick Sort                              |
 
 ## **Others**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |

@@ -59,6 +59,7 @@
 | 003   | 024 Swap Nodes Pairs                  | 16th Aug. 2021    | C#           |
 | 004   | 451 Sort Characters By Frequency      | 20th Aug. 2021    | C#           |
 | 005   | 253 Meeting Rooms II                  | 20th Aug. 2021    | C#           |
+| 006   | 215 Kth Largest Element in an Array   | 28th Sep. 2021    | C#           |
 
 ## **Others**</span>
 | #     | Problem                               | Complete Date     | Language     | Tags                                    |
