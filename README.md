@@ -50,6 +50,8 @@
 | 044   | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           |
 | 045   | 162 Find Peak Element                 | 13th Sep. 2021    | C#           |
 | 046   | 937 Reorder Data in Log Files         | 25th Sep. 2021    | C#           |
+| 047   | 532 K-diff Pairs in an Array          | 29th Sep. 2021    | C#           |
+| 048   | 389_Find the Difference               | 29th Sep. 2021    | C#           |
 
 ## <span style="color:Orange">**MEDIUM**</span>
 | #     | Problem                               | Complete Date     | Language     |

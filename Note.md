@@ -14,6 +14,7 @@
 | 383 Ransom Note                       | 15th Aug. 2021    | C#           | StringList                              |
 | 118 Pascals Triangle                  | 15th Aug. 2021    | C#           | List                                    |
 | 1903_Largest Odd Number in String     | 12th Sep. 2021    | C#           |                                         |
+| 389_Find the Difference               | 29th Sep. 2021    | C#           | Dictionary, Sum of char                 |
 
 ### Array
 | Problem                               | Complete Date     | Language     | Tags                                    |
@@ -43,6 +44,7 @@
 | 1196 How Many Apples Can You Put into the Basket | 13th Sep. 2021    | C#           | int Array                            |
 | 162 Find Peak Element                 | 13th Sep. 2021    | C#           | int Array, Binary Search                |
 | 937 Reorder Data in Log Files         | 25th Sep. 2021    | C#           | String                                  |
+| 532 K-diff Pairs in an Array          | 29th Sep. 2021    | C#           | int Array, SortedDictionary             |
 
 ### Linked List
 | Problem                               | Complete Date     | Language     | Tags                                    |
