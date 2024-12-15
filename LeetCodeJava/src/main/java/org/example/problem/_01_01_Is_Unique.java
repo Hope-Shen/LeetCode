@@ -1,8 +1,6 @@
 package org.example.problem;
 
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
+import java.util.*;
 
 public class _01_01_Is_Unique {
     /*
@@ -37,8 +35,31 @@ public class _01_01_Is_Unique {
 
         result = isUnique_1("");
         System.out.println("true - " + result);
+
+        // solution 2
+        System.out.println("solution 2");
+        boolean result2 = isUnique_2("leetcode");
+        System.out.println("false - " + result2);
+
+        result2 = isUnique_2("abc");
+        System.out.println("true - " + result2);
+
+        result2 = isUnique_2("");
+        System.out.println("true - " + result2);
+
+        // solution 3
+        System.out.println("solution 3");
+        boolean result3 = isUnique_3("leetcode");
+        System.out.println("false - " + result3);
+
+        result3 = isUnique_3("abc");
+        System.out.println("true - " + result3);
+
+        result3 = isUnique_3("");
+        System.out.println("true - " + result3);
     }
-    private boolean isUnique_1(String s) {
+    protected boolean isUnique_1(String s) {
+        // HashMap -> use additional data structures
         // Time complexity: O(n)
         // Space complexity: O(n)
 
@@ -51,6 +72,36 @@ public class _01_01_Is_Unique {
             } else {
                 map.put(c, c);
             }
+        }
+        return true;
+    }
+
+    protected boolean isUnique_2(String s) {
+        // Sort -> no use additional data structures
+        // Time complexity: O(n log n)
+        // Space complexity: O(n)
+
+        char[] chars = s.toCharArray();
+        Arrays.sort(chars); // -> O(n log n)
+        for(int i=0; i< chars.length-1; i++){ // -> O(n)
+            if (chars[i] == chars[i+1]) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    protected boolean isUnique_3(String s) {
+        // HashSet -> use additional data structures
+        // Time complexity: O(n)
+        // Space complexity: O(n)
+
+        Set<Character> chars = new HashSet<>();
+        for(char c: s.toCharArray()){
+            if(chars.contains(c)) {
+                return false;
+            }
+            chars.add(c);
         }
         return true;
     }
