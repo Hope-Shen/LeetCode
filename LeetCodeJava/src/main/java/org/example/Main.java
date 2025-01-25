@@ -11,6 +11,8 @@ public class Main {
 //        new _01_02_Check_Permutation().checkPermutation();
 //        new _01_03_String_to_URL().stringToURL();
 //        new _01_04_Palindrome_Permutation().palindromePermutation();
-        new _01_05_One_Away().oneAway();
+//        new _01_05_One_Away().oneAway();
+//        new _268_Missing_Number().missingNumber();
+        new _572_Subtree_Of_Another_Tree().subtreeOfAnotherTree();
     }
 }
