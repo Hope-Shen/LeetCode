@@ -12,7 +12,7 @@
 - [X]  **[217] Contains Duplicate** (Easy)
   - Core Concept: `HashSet`
   - Go Skills: `map[int]bool`, efficient lookup
-- [ ]  **[242] Valid Anagram** (Easy)
+- [X]  **[242] Valid Anagram** (Easy)
   - Core Concept: Frequency Counter
   - Go Skills: Using Array as a Map optimization (`[26]int`), `rune` vs `byte`
 
@@ -24,7 +24,7 @@
 * Distinguishing between `byte` (ASCII) and `rune` (Unicode/UTF-8).
 * Applying the **Two Pointers** technique for space optimization.
 
-- [ ]  **[125] Valid Palindrome** (Easy)
+- [X]  **[125] Valid Palindrome** (Easy)
   - Core Concept: Two Pointers convergence, String sanitization
   - Go Skills: `strings` package, `unicode` package
 - [ ]  **[344] Reverse String** (Easy)
