@@ -27,7 +27,7 @@
 - [X]  **[125] Valid Palindrome** (Easy)
   - Core Concept: Two Pointers convergence, String sanitization
   - Go Skills: `strings` package, `unicode` package
-- [ ]  **[344] Reverse String** (Easy)
+- [X]  **[344] Reverse String** (Easy)
   - Core Concept: In-place Swap
   - Go Skills: Multiple assignment (`a, b = b, a`)
 

@@ -43,4 +43,12 @@ func TestContainsDuplicate(t *testing.T) {
 			}
 		})
 	}
+	for _, tc := range tests {
+		t.Run(tc.name, func(t *testing.T) {
+			result := ContainsDuplicateSort(tc.nums)
+			if result != tc.expected {
+				t.Errorf("Case [%s] Failed！ Expect: %v, Actual: %v", tc.name, tc.expected, result)
+			}
+		})
+	}
 }
