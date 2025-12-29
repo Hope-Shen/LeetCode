@@ -38,7 +38,7 @@
 * Manipulating **Pointers** (`*Node`, `&Node`).
 * Understanding memory addresses and pass-by-reference.
 
-- [ ]  **[206] Reverse Linked List** (Easy)
+- [X]  **[206] Reverse Linked List** (Easy)
   - Core Concept: Pointer manipulation
   - Go Skills: Iterative vs Recursive approaches
 - [ ]  **[21] Merge Two Sorted Lists** (Easy)
