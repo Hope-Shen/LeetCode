@@ -36,13 +36,10 @@ func TestReverseList(t *testing.T) {
 
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
-			// 1. 準備資料：把 []int 轉成 Linked List
 			head := sliceToList(tc.input)
 
-			// 2. 執行演算法
 			newHead := reverseList(head)
 
-			// 3. 驗證結果：把 Linked List 轉回 []int 方便比較
 			result := listToSlice(newHead)
 
 			if !reflect.DeepEqual(result, tc.expected) {
@@ -52,17 +49,14 @@ func TestReverseList(t *testing.T) {
 	}
 }
 
-// --- 輔助函式 (Helpers) ---
+// --- Helpers Function ---
 
-// sliceToList 將切片轉換為鏈結串列
 func sliceToList(nums []int) *ListNode {
 	if len(nums) == 0 {
 		return nil
 	}
-	// 建立頭節點
 	head := &ListNode{Val: nums[0]}
 	curr := head
-	// 依序建立後面的節點
 	for i := 1; i < len(nums); i++ {
 		curr.Next = &ListNode{Val: nums[i]}
 		curr = curr.Next
@@ -70,7 +64,6 @@ func sliceToList(nums []int) *ListNode {
 	return head
 }
 
-// listToSlice 將鏈結串列轉換回切片 (方便 assert)
 func listToSlice(head *ListNode) []int {
 	nums := []int{}
 	curr := head

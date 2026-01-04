@@ -39,9 +39,9 @@
 * Understanding memory addresses and pass-by-reference.
 
 - [X]  **[206] Reverse Linked List** (Easy)
-  - Core Concept: Pointer manipulation
+  - Core Concept: Pointer manipulation+
   - Go Skills: Iterative vs Recursive approaches
-- [ ]  **[21] Merge Two Sorted Lists** (Easy)
+- [X]  **[21] Merge Two Sorted Lists** (Easy)
   - Core Concept: Merge Sort basics
   - Go Skills: Dummy Node technique
 
