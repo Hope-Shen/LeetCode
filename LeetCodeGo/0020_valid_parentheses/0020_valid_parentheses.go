@@ -1,5 +1,7 @@
 package vaild_parentheses
 
+// Time complexity: O(n)
+// Space complexity: O(n)
 func isValid(s string) bool {
 	dic := map[rune]rune{
 		')': '(',
