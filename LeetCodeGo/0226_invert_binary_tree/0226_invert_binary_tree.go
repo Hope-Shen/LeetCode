@@ -1,5 +1,7 @@
 package invert_binary_tree
 
+import "LeetCode/LeetCodeGo/utility"
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -11,7 +13,7 @@ package invert_binary_tree
 
 // Time complexity: O(n)
 // Space complexity: O(h) -> Height of the tree, normally is DFS
-func invertTree(root *TreeNode) *TreeNode {
+func invertTree(root *utility.TreeNode) *utility.TreeNode {
 	// 1. 終止條件 (Base Case)
 	if root == nil {
 		return nil
@@ -26,8 +28,3 @@ func invertTree(root *TreeNode) *TreeNode {
 	return root
 }
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}

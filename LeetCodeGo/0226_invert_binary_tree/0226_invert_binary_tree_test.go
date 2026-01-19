@@ -3,6 +3,8 @@ package invert_binary_tree
 import (
 	"reflect"
 	"testing"
+
+	"LeetCode/LeetCodeGo/utility"
 )
 
 func TestInvertTree(t *testing.T) {
@@ -36,13 +38,13 @@ func TestInvertTree(t *testing.T) {
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
 			// 1. Setup: 將 []int 轉為 *TreeNode
-			inputTree := intsToTree(tc.root)
+			inputTree := utility.IntsToTree(tc.root)
 
 			// 2. Execute: 執行翻轉
 			resultTree := invertTree(inputTree)
 
 			// 3. Transform Back: 將結果轉回 []int 以便驗證
-			resultSlice := treeToInts(resultTree)
+			resultSlice := utility.TreeToInts(resultTree)
 
 			// 4. Assertion: 比對 []int 是否一致
 			if !reflect.DeepEqual(resultSlice, tc.expected) {
@@ -52,56 +54,3 @@ func TestInvertTree(t *testing.T) {
 	}
 }
 
-// --- Helper Functions ---
-func intsToTree(nums []int) *TreeNode {
-	if len(nums) == 0 {
-		return nil
-	}
-
-	root := &TreeNode{Val: nums[0]}
-	queue := []*TreeNode{root}
-	i := 1
-
-	for i < len(nums) {
-		curr := queue[0]
-		queue = queue[1:]
-
-		// add left node
-		if i < len(nums) {
-			curr.Left = &TreeNode{Val: nums[i]}
-			queue = append(queue, curr.Left)
-			i++
-		}
-		// add right node
-		if i < len(nums) {
-			curr.Right = &TreeNode{Val: nums[i]}
-			queue = append(queue, curr.Right)
-			i++
-		}
-	}
-	return root
-}
-
-func treeToInts(root *TreeNode) []int {
-	if root == nil {
-		return []int{}
-	}
-
-	result := []int{}
-	queue := []*TreeNode{root}
-
-	for len(queue) > 0 {
-		curr := queue[0]
-		queue = queue[1:]
-
-		result = append(result, curr.Val)
-
-		if curr.Left != nil {
-			queue = append(queue, curr.Left)
-		}
-		if curr.Right != nil {
-			queue = append(queue, curr.Right)
-		}
-	}
-	return result
-}
