@@ -1,11 +1,15 @@
 package utility
 
+import "math"
+
 // TreeNode represents a node in a binary tree
 type TreeNode struct {
 	Val   int
 	Left  *TreeNode
 	Right *TreeNode
 }
+
+var NULL = math.MinInt
 
 // --- Helper Functions ---
 
